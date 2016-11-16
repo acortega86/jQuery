@@ -1,11 +1,15 @@
 // JQUERY
-
 $(document).ready(function(){
+        $('#add').click(function(){
+    var toAdd = $('input[name=ListItem]').val();
+      $('ol').append('<li>' + toAdd + '</li>');
+      });
 
-  $('#button').click(function(){
+      $(document).on('click','li', function(){
+        $(this).fadeOut('slow');
+      });
 
-    $('ul li:nth-child(2), #button').fadeTo('fast', 0.5);
-
-  });
-
-});
+      $('input').focus(function() {
+        $(this).val('');
+      });
+    });

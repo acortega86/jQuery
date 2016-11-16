@@ -1,17 +1,48 @@
 @import 'helpers/reset';
 
-$squaresize: 300px;
-$smallButton: 200px;
-
-#button {
-  height: $squaresize;
-  width: $squaresize;
-  line-height: $squaresize;
-  background-color: #1E94C4;
-  margin: 50px auto 0 auto;
-  border-radius: 5px;
-  text-align: center;
-  color: #FBBA00;
-  text-transform: uppercase;;
-  font-family: sans-serif;
+.container{
+padding: 20px;
+width: 300px;
+margin: 0 auto;
+margin-top: 40px;
+border-radius: 5px;
+background-color: #1E94C4;
+color: #FBBA00;
+text-align: center;
 }
+
+#add{
+display: inline-block;
+background-color: #FBBA00;
+color: #1E94C4;
+border-radius: 5px;
+text-align: center;
+margin-top: 2px;
+padding: 5px 15px;
+}
+
+#add:hover{
+cursor: pointer;
+opacity: .8;}
+
+#clear{
+display: inline-block;
+background-color: #FBBA00;
+color: #1E94C4;
+border-radius: 5px;
+text-align: center;
+margin-top: 2px;
+padding: 5px 15px;
+}
+
+#clear:hover{
+cursor: pointer;
+opacity: .8;}
+
+form {
+display: inline-block;
+}
+
+li:hover{
+  cursor: pointer;
+ }

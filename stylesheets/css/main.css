@@ -16,7 +16,7 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-  margin: 0;
+  margin: 50px;
   padding: 0;
   border: 0;
   font-size: 100%;
@@ -53,15 +53,51 @@ table {
   border-spacing: 0;
 }
 
-#button {
-  height: 300px;
+.container {
+  padding: 20px;
   width: 300px;
-  line-height: 300px;
+  margin: 0 auto;
+  margin-top: 40px;
+  border-radius: 5px;
   background-color: #1E94C4;
-  margin: 50px auto 0 auto;
+  color: #FBBA00;
+  text-align: center;
+}
+
+#add {
+  display: inline-block;
+  background-color: #FBBA00;
+  color: #1E94C4;
   border-radius: 5px;
   text-align: center;
-  color: #FBBA00;
-  text-transform: uppercase;
-  font-family: sans-serif;
+  margin-top: 2px;
+  padding: 5px 15px;
+}
+
+#add:hover {
+  cursor: pointer;
+  opacity: .8;
+}
+
+#clear {
+  display: inline-block;
+  background-color: #FBBA00;
+  color: #1E94C4;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 2px;
+  padding: 5px 15px;
+}
+
+#clear:hover {
+  cursor: pointer;
+  opacity: .8;
+}
+
+form {
+  display: inline-block;
+}
+
+li:hover {
+  cursor: pointer;
 }
