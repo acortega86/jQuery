@@ -1,1 +1,0 @@
-$(document).ready(function(){$("#add").click(function(){var n=$("input[name=ListItem]").val();$("ol").append("<li>"+n+"</li>")}),$(document).on("click","li",function(){$(this).fadeOut("slow")}),$("input").focus(function(){$(this).val("")})});

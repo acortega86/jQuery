@@ -1,48 +1,15 @@
 @import 'helpers/reset';
 
-.container{
-padding: 20px;
-width: 300px;
-margin: 0 auto;
-margin-top: 40px;
-border-radius: 5px;
-background-color: #1E94C4;
-color: #FBBA00;
-text-align: center;
+body {
+  text-align: center;
+  margin-top: 200px;
 }
 
-#add{
-display: inline-block;
-background-color: #FBBA00;
-color: #1E94C4;
-border-radius: 5px;
-text-align: center;
-margin-top: 2px;
-padding: 5px 15px;
+#testDiv {
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  border-radius: 5px;
+  margin: 20px;
 }
-
-#add:hover{
-cursor: pointer;
-opacity: .8;}
-
-#clear{
-display: inline-block;
-background-color: #FBBA00;
-color: #1E94C4;
-border-radius: 5px;
-text-align: center;
-margin-top: 2px;
-padding: 5px 15px;
-}
-
-#clear:hover{
-cursor: pointer;
-opacity: .8;}
-
-form {
-display: inline-block;
-}
-
-li:hover{
-  cursor: pointer;
- }
