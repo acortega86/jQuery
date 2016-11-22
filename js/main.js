@@ -1,1 +1,5 @@
 // JQUERY
+
+$(document).ready(function(){
+  
+});
